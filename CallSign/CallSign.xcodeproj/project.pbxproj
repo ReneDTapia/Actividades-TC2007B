@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528589A72ABD1B6900E4EAEF /* CallSignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528589A62ABD1B6900E4EAEF /* CallSignApp.swift */; };
+		528589A92ABD1B6900E4EAEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528589A82ABD1B6900E4EAEF /* ContentView.swift */; };
+		528589AB2ABD1B6B00E4EAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528589AA2ABD1B6B00E4EAEF /* Assets.xcassets */; };
+		528589AE2ABD1B6B00E4EAEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528589AD2ABD1B6B00E4EAEF /* Preview Assets.xcassets */; };
+		528589B82ABD1B6B00E4EAEF /* CallSignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528589B72ABD1B6B00E4EAEF /* CallSignTests.swift */; };
+		528589C22ABD1B6B00E4EAEF /* CallSignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528589C12ABD1B6B00E4EAEF /* CallSignUITests.swift */; };
+		528589C42ABD1B6B00E4EAEF /* CallSignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528589C32ABD1B6B00E4EAEF /* CallSignUITestsLaunchTests.swift */; };
+		528589D22ABD1D9000E4EAEF /* Transcription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528589D12ABD1D9000E4EAEF /* Transcription.swift */; };
+		528589D42ABD1DB000E4EAEF /* TranscriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528589D32ABD1DB000E4EAEF /* TranscriptionViewModel.swift */; };
+		528589D62ABD4E5500E4EAEF /* CallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528589D52ABD4E5500E4EAEF /* CallModel.swift */; };
+		528589D82ABD4E6A00E4EAEF /* CallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528589D72ABD4E6A00E4EAEF /* CallViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		528589B42ABD1B6B00E4EAEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5285899B2ABD1B6900E4EAEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528589A22ABD1B6900E4EAEF;
+			remoteInfo = CallSign;
+		};
+		528589BE2ABD1B6B00E4EAEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5285899B2ABD1B6900E4EAEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528589A22ABD1B6900E4EAEF;
+			remoteInfo = CallSign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		528589A32ABD1B6900E4EAEF /* CallSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528589A62ABD1B6900E4EAEF /* CallSignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSignApp.swift; sourceTree = "<group>"; };
+		528589A82ABD1B6900E4EAEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		528589AA2ABD1B6B00E4EAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		528589AD2ABD1B6B00E4EAEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		528589B32ABD1B6B00E4EAEF /* CallSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528589B72ABD1B6B00E4EAEF /* CallSignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSignTests.swift; sourceTree = "<group>"; };
+		528589BD2ABD1B6B00E4EAEF /* CallSignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallSignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528589C12ABD1B6B00E4EAEF /* CallSignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSignUITests.swift; sourceTree = "<group>"; };
+		528589C32ABD1B6B00E4EAEF /* CallSignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		528589D02ABD1C8F00E4EAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		528589D12ABD1D9000E4EAEF /* Transcription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transcription.swift; sourceTree = "<group>"; };
+		528589D32ABD1DB000E4EAEF /* TranscriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionViewModel.swift; sourceTree = "<group>"; };
+		528589D52ABD4E5500E4EAEF /* CallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallModel.swift; sourceTree = "<group>"; };
+		528589D72ABD4E6A00E4EAEF /* CallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528589A02ABD1B6900E4EAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528589B02ABD1B6B00E4EAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528589BA2ABD1B6B00E4EAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5285899A2ABD1B6900E4EAEF = {
+			isa = PBXGroup;
+			children = (
+				528589A52ABD1B6900E4EAEF /* CallSign */,
+				528589B62ABD1B6B00E4EAEF /* CallSignTests */,
+				528589C02ABD1B6B00E4EAEF /* CallSignUITests */,
+				528589A42ABD1B6900E4EAEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528589A42ABD1B6900E4EAEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528589A32ABD1B6900E4EAEF /* CallSign.app */,
+				528589B32ABD1B6B00E4EAEF /* CallSignTests.xctest */,
+				528589BD2ABD1B6B00E4EAEF /* CallSignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528589A52ABD1B6900E4EAEF /* CallSign */ = {
+			isa = PBXGroup;
+			children = (
+				528589D02ABD1C8F00E4EAEF /* Info.plist */,
+				528589A62ABD1B6900E4EAEF /* CallSignApp.swift */,
+				528589A82ABD1B6900E4EAEF /* ContentView.swift */,
+				528589D52ABD4E5500E4EAEF /* CallModel.swift */,
+				528589D72ABD4E6A00E4EAEF /* CallViewModel.swift */,
+				528589D32ABD1DB000E4EAEF /* TranscriptionViewModel.swift */,
+				528589D12ABD1D9000E4EAEF /* Transcription.swift */,
+				528589AA2ABD1B6B00E4EAEF /* Assets.xcassets */,
+				528589AC2ABD1B6B00E4EAEF /* Preview Content */,
+			);
+			path = CallSign;
+			sourceTree = "<group>";
+		};
+		528589AC2ABD1B6B00E4EAEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				528589AD2ABD1B6B00E4EAEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		528589B62ABD1B6B00E4EAEF /* CallSignTests */ = {
+			isa = PBXGroup;
+			children = (
+				528589B72ABD1B6B00E4EAEF /* CallSignTests.swift */,
+			);
+			path = CallSignTests;
+			sourceTree = "<group>";
+		};
+		528589C02ABD1B6B00E4EAEF /* CallSignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				528589C12ABD1B6B00E4EAEF /* CallSignUITests.swift */,
+				528589C32ABD1B6B00E4EAEF /* CallSignUITestsLaunchTests.swift */,
+			);
+			path = CallSignUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528589A22ABD1B6900E4EAEF /* CallSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528589C72ABD1B6B00E4EAEF /* Build configuration list for PBXNativeTarget "CallSign" */;
+			buildPhases = (
+				5285899F2ABD1B6900E4EAEF /* Sources */,
+				528589A02ABD1B6900E4EAEF /* Frameworks */,
+				528589A12ABD1B6900E4EAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallSign;
+			productName = CallSign;
+			productReference = 528589A32ABD1B6900E4EAEF /* CallSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		528589B22ABD1B6B00E4EAEF /* CallSignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528589CA2ABD1B6B00E4EAEF /* Build configuration list for PBXNativeTarget "CallSignTests" */;
+			buildPhases = (
+				528589AF2ABD1B6B00E4EAEF /* Sources */,
+				528589B02ABD1B6B00E4EAEF /* Frameworks */,
+				528589B12ABD1B6B00E4EAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528589B52ABD1B6B00E4EAEF /* PBXTargetDependency */,
+			);
+			name = CallSignTests;
+			productName = CallSignTests;
+			productReference = 528589B32ABD1B6B00E4EAEF /* CallSignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		528589BC2ABD1B6B00E4EAEF /* CallSignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528589CD2ABD1B6B00E4EAEF /* Build configuration list for PBXNativeTarget "CallSignUITests" */;
+			buildPhases = (
+				528589B92ABD1B6B00E4EAEF /* Sources */,
+				528589BA2ABD1B6B00E4EAEF /* Frameworks */,
+				528589BB2ABD1B6B00E4EAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528589BF2ABD1B6B00E4EAEF /* PBXTargetDependency */,
+			);
+			name = CallSignUITests;
+			productName = CallSignUITests;
+			productReference = 528589BD2ABD1B6B00E4EAEF /* CallSignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5285899B2ABD1B6900E4EAEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					528589A22ABD1B6900E4EAEF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					528589B22ABD1B6B00E4EAEF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 528589A22ABD1B6900E4EAEF;
+					};
+					528589BC2ABD1B6B00E4EAEF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 528589A22ABD1B6900E4EAEF;
+					};
+				};
+			};
+			buildConfigurationList = 5285899E2ABD1B6900E4EAEF /* Build configuration list for PBXProject "CallSign" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5285899A2ABD1B6900E4EAEF;
+			productRefGroup = 528589A42ABD1B6900E4EAEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528589A22ABD1B6900E4EAEF /* CallSign */,
+				528589B22ABD1B6B00E4EAEF /* CallSignTests */,
+				528589BC2ABD1B6B00E4EAEF /* CallSignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		528589A12ABD1B6900E4EAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528589AE2ABD1B6B00E4EAEF /* Preview Assets.xcassets in Resources */,
+				528589AB2ABD1B6B00E4EAEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528589B12ABD1B6B00E4EAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528589BB2ABD1B6B00E4EAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5285899F2ABD1B6900E4EAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528589D82ABD4E6A00E4EAEF /* CallViewModel.swift in Sources */,
+				528589A92ABD1B6900E4EAEF /* ContentView.swift in Sources */,
+				528589A72ABD1B6900E4EAEF /* CallSignApp.swift in Sources */,
+				528589D22ABD1D9000E4EAEF /* Transcription.swift in Sources */,
+				528589D42ABD1DB000E4EAEF /* TranscriptionViewModel.swift in Sources */,
+				528589D62ABD4E5500E4EAEF /* CallModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528589AF2ABD1B6B00E4EAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528589B82ABD1B6B00E4EAEF /* CallSignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528589B92ABD1B6B00E4EAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528589C42ABD1B6B00E4EAEF /* CallSignUITestsLaunchTests.swift in Sources */,
+				528589C22ABD1B6B00E4EAEF /* CallSignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		528589B52ABD1B6B00E4EAEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528589A22ABD1B6900E4EAEF /* CallSign */;
+			targetProxy = 528589B42ABD1B6B00E4EAEF /* PBXContainerItemProxy */;
+		};
+		528589BF2ABD1B6B00E4EAEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528589A22ABD1B6900E4EAEF /* CallSign */;
+			targetProxy = 528589BE2ABD1B6B00E4EAEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		528589C52ABD1B6B00E4EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		528589C62ABD1B6B00E4EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		528589C82ABD1B6B00E4EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CallSign/Preview Content\"";
+				DEVELOPMENT_TEAM = 5HD445NBV6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallSign/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"Necesitamos acceso al micrófono para transcribir tus llamadas en tiempo real\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.CallSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		528589C92ABD1B6B00E4EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CallSign/Preview Content\"";
+				DEVELOPMENT_TEAM = 5HD445NBV6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallSign/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"Necesitamos acceso al micrófono para transcribir tus llamadas en tiempo real\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.CallSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		528589CB2ABD1B6B00E4EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HD445NBV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.CallSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallSign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CallSign";
+			};
+			name = Debug;
+		};
+		528589CC2ABD1B6B00E4EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HD445NBV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.CallSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallSign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CallSign";
+			};
+			name = Release;
+		};
+		528589CE2ABD1B6B00E4EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HD445NBV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.CallSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CallSign;
+			};
+			name = Debug;
+		};
+		528589CF2ABD1B6B00E4EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HD445NBV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.CallSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CallSign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5285899E2ABD1B6900E4EAEF /* Build configuration list for PBXProject "CallSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528589C52ABD1B6B00E4EAEF /* Debug */,
+				528589C62ABD1B6B00E4EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528589C72ABD1B6B00E4EAEF /* Build configuration list for PBXNativeTarget "CallSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528589C82ABD1B6B00E4EAEF /* Debug */,
+				528589C92ABD1B6B00E4EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528589CA2ABD1B6B00E4EAEF /* Build configuration list for PBXNativeTarget "CallSignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528589CB2ABD1B6B00E4EAEF /* Debug */,
+				528589CC2ABD1B6B00E4EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528589CD2ABD1B6B00E4EAEF /* Build configuration list for PBXNativeTarget "CallSignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528589CE2ABD1B6B00E4EAEF /* Debug */,
+				528589CF2ABD1B6B00E4EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5285899B2ABD1B6900E4EAEF /* Project object */;
+}
